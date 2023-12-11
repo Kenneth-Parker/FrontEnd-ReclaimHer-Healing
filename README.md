@@ -16,6 +16,6 @@ Our journey began with Mama Love, a beacon of strength who embarked on a profoun
 ## Join Us on the Journey
 Whether you're seeking a compassionate community or valuable resources, **ReclaimHer Healing** invites you to embark on a journey of self-discovery, resilience, and renewal. Your healing begins here.
 
-[Explore Now](#) | [Join the Community](#) | [Contact Us](#)
+[Explore Now](https://reclaimher-healing.netlify.app/) | [Join the Community](https://reclaimher-healing.netlify.app/about) | [Contact Us](https://reclaimher-healing.netlify.app/about)
 
 **ReclaimHer Healing** - where wounds transform into wisdom, and every woman reclaims her power.
