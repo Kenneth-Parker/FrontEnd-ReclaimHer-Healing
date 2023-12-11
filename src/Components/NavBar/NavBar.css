@@ -8,12 +8,14 @@ nav h1 {
 }
 
 nav ul {
+    margin-top: -70px;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 nav a {
     text-decoration: none;
+    padding-right: 22px;
     color: rgb(92, 140, 68)
 }
