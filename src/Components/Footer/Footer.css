@@ -1,0 +1,27 @@
+footer {
+    margin-top: 100px;
+    box-shadow: -1.2px -2.2px 2.2px;
+}
+
+
+footer h1 {
+    text-align: left;
+}
+
+footer ul {
+    margin-top: -70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a {
+    text-decoration: none;
+    padding-right: 22px;
+    color: rgb(92, 140, 68)
+}
+
+footer p {
+    margin-left: 11px;
+    text-align: left;
+}
