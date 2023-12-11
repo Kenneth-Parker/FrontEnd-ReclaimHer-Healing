@@ -1,0 +1,19 @@
+nav {
+    box-shadow: 1.2px 2.2px 2.2px;
+}
+
+
+nav h1 {
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(92, 140, 68)
+}
