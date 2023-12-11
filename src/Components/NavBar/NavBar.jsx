@@ -7,12 +7,12 @@ const NavBar = () => {
         <nav>
             <Link to={"/"}><h1>ReclaimingHer Healing</h1></Link>
             <ul>
-                <li><Link to={"/Home"}>Home</Link></li>
-                <li><Link to={"/About"}>About</Link></li>
-                <li><Link to={"/Forum"}>Forum</Link></li>
-                <li><Link to={"/Resources"}>Resources</Link></li>
-                <li><Link to={"/Events"}>Events</Link></li>
-                <li><Link to={"/Contact"}>Contact</Link></li>
+                <li><Link to={"/"}>Home</Link></li>
+                <li><Link to={"/about"}>About</Link></li>
+                <li><Link to={"/forum"}>Forum</Link></li>
+                <li><Link to={"/resources"}>Resources</Link></li>
+                <li><Link to={"/events"}>Events</Link></li>
+                <li><Link to={"/contact"}>Contact</Link></li>
             </ul>
         </nav>
     );
