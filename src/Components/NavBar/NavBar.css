@@ -9,6 +9,7 @@ nav h1 {
 
 nav ul {
     margin-top: 0px;
+    margin-left: 11px;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
