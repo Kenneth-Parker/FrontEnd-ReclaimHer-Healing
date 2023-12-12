@@ -9,7 +9,7 @@ footer h1 {
 }
 
 footer ul {
-    margin-top: -70px;
+    margin-top: 0px;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
