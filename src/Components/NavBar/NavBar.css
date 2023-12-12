@@ -45,6 +45,10 @@ nav a {
         margin-bottom: -11px;
     }
 
+    nav ul {
+        margin-left: 0px;
+    }
+
     .menu-btn {
         display: flex;
         position: relative;
@@ -57,7 +61,7 @@ nav a {
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: inherit;
+        background-color: rgba(6, 245, 249, 0.1);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
