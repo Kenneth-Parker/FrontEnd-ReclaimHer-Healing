@@ -2,7 +2,6 @@ nav {
     box-shadow: 1.2px 2.2px 2.2px;
 }
 
-
 nav h1 {
     text-align: left;
 }
@@ -18,29 +17,42 @@ nav ul {
 nav a {
     text-decoration: none;
     padding-right: 22px;
-    color: rgb(92, 140, 68)
+    color: rgb(92, 140, 68);
 }
 
+.menu-btn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn-line {
+    width: 25px;
+    height: 3px;
+    background: rgb(92, 140, 68);
+    margin: 5px;
+    transition: transform 0.4s, opacity 0.4s;
+}
 
 @media screen and (max-width: 960px) {
+    .menu-btn {
+        display: flex;
+    }
+
     .nav-links {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 70px;
+        top: 70px; /* Adjust as needed based on your header height */
         left: 0;
         width: 100%;
-        background-color: #fff;
+        background-color: #fff; /* Add background color for better visibility */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .nav-links.open {
         display: flex;
-    }
-
-    .menu-btn {
-        display: block;
-        cursor: pointer;
     }
 
     .menu-btn.open .btn-line:nth-child(1) {
