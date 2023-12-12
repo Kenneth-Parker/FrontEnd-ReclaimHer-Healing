@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 import img1 from "../assets/grpWoman.jpeg"
-import img2 from "../assets/groWomanHug.png"
+import img2 from "../assets/groWomanHuggreen.png"
 
 
 
