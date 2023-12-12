@@ -9,6 +9,10 @@ const NavBar = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const handleLinkClick = () => {
+        setMenuOpen(false);
+    };
+
     return (
         <nav>
             <Link to={"/"}><h1>ReclaimHer Healing</h1></Link>
@@ -18,12 +22,12 @@ const NavBar = () => {
                 <div className="btn-line"></div>
             </div>
             <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-                <li><Link to={"/"}>Home</Link></li>
-                <li><Link to={"/about"}>About</Link></li>
-                <li><Link to={"/forum"}>Forum</Link></li>
-                <li><Link to={"/resources"}>Resources</Link></li>
-                <li><Link to={"/events"}>Events</Link></li>
-                <li><Link to={"/contact"}>Contact</Link></li>
+                <li><Link to={"/"} onClick={handleLinkClick}>Home</Link></li>
+                <li><Link to={"/about"} onClick={handleLinkClick}>About</Link></li>
+                <li><Link to={"/forum"} onClick={handleLinkClick}>Forum</Link></li>
+                <li><Link to={"/resources"} onClick={handleLinkClick}>Resources</Link></li>
+                <li><Link to={"/events"} onClick={handleLinkClick}>Events</Link></li>
+                <li><Link to={"/contact"} onClick={handleLinkClick}>Contact</Link></li>
             </ul>
         </nav>
     );
