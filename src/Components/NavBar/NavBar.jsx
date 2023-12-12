@@ -15,12 +15,13 @@ const NavBar = () => {
 
     return (
         <nav>
-            <Link to={"/"}><h1>ReclaimHer Healing</h1></Link>
+            
             <div className={`menu-btn ${menuOpen ? 'open' : ''}`} onClick={handleMenuToggle}>
                 <div className="btn-line"></div>
                 <div className="btn-line"></div>
                 <div className="btn-line"></div>
             </div>
+            <Link to={"/"}><h1>ReclaimHer Healing</h1></Link>
             <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
                 <li><Link to={"/"} onClick={handleLinkClick}>Home</Link></li>
                 <li><Link to={"/about"} onClick={handleLinkClick}>About</Link></li>

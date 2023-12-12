@@ -4,6 +4,8 @@ nav {
 
 nav h1 {
     text-align: left;
+    margin-bottom: -50px;
+    margin-left: 11px;
 }
 
 nav ul {
@@ -36,6 +38,13 @@ nav a {
 }
 
 @media screen and (max-width: 960px) {
+    nav h1 {
+        text-align: right;
+        margin-right: 22px;
+        margin-top: -50px;
+        margin-bottom: -11px;
+    }
+
     .menu-btn {
         display: flex;
         position: relative;
@@ -45,11 +54,10 @@ nav a {
     .nav-links {
         display: none;
         flex-direction: column;
-        position: absolute;
-        top: 60px; /* Adjusted to open below the button */
+        top: 60px;
         left: 0;
         width: 100%;
-        background-color: inherit; /* Match the website's overall background */
+        background-color: inherit;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
