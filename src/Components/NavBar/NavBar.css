@@ -50,6 +50,11 @@ nav a {
         align-items: flex-start
     }
 
+    nav ul a {
+        color: rgb(170, 103, 148);
+        font-size: 1.5em;
+    }
+
     .menu-btn {
         display: flex;
         position: relative;
@@ -59,10 +64,8 @@ nav a {
     .nav-links {
         display: none;
         flex-direction: column;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: rgba(6, 245, 249, 0.1);
+        /* background-color: rgba(6, 245, 249, 0.1); */
+        background-color: rgba(255, 255, 255, 0.08);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 

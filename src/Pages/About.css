@@ -1,3 +1,17 @@
 .about {
-    margin: 22px;
+    margin: 0px 22px;
+}
+
+@media (prefers-color-scheme: light) {
+    .main-about {
+        background: url('../assets/wallpaperLGT11.png') center/cover;
+        margin-top: 0px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .main-about {
+        background: url('../assets/wallpaperDRK11.png') center/cover;
+        margin-top: 0px;
+    }
 }
