@@ -1,6 +1,6 @@
 
 .welcome-section {
-    /* background: url('../assets/grpWoman.jpeg') center/cover; */
+    /* background: url('../assets/wallpaperDRK11.png') center/cover; */
 
     background-color: hsla(0, 0%, 96%, 0.122);
     padding: 50px; 
@@ -42,4 +42,16 @@
     /* opacity: 0.7;  */
 }
 
+@media (prefers-color-scheme: light) {
+    .welcome-section {
+        background: url('../assets/wallpaperLGT11.png') center/cover;
+        margin-top: 11px;
+    }
+}
 
+@media (prefers-color-scheme: dark) {
+    .welcome-section {
+        background: url('../assets/wallpaperDRK11.png') center/cover;
+        margin-top: 11px;
+    }
+}
